@@ -1,16 +1,25 @@
+/* FTMO Style Colors */
 body {
-    background-color: lightblue;
-    text-align: center;
-    padding: 50px;
-}
-
-h1 {
-    color: darkblue;
-}
-
-button {
-    background: green;
+    font-family: 'Arial', sans-serif;
+    background: #0a0e17; /* Dark blue-black */
     color: white;
-    padding: 10px 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(90deg, #00d4ff, #0088ff);
+    padding: 20px;
+    text-align: center;
+}
+
+.button-primary {
+    background: linear-gradient(90deg, #00d4ff, #0088ff);
+    color: white;
+    padding: 15px 40px;
     border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
